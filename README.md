@@ -11,7 +11,7 @@ The fields are:
 
 **Rotation:** The visuomotor rotation imposed on each trial (in degrees). CCW is positive, CW is negative. 
 
-**Wait:** Whether a wait time was imposed (1) or not (0). Breaks are indicated by (2).
+**Wait:** Whether, right before the trial, a wait time was imposed (1) or not (0). Trials immediately following breaks are indicated by (2).
 
 **Instruction:** Whether an instruction was given for the trial (1) or not (0). Only present in Experiment 3. Note that Experiment 3 includes:
 
@@ -26,3 +26,5 @@ The fields are:
 **theta:** = reaching direction relative to theta_target, measured 150ms into the movement. Note that this is flipped based on the rotation sign so that adaptation towards the imposed visuomotor rotation is always positive.
 
 **theta_end:** = reaching direction relative to theta_target, measured at the end of movement. Only included for Experiment 4: it is to be used for the no visual feedback blocks in Experiment 4.
+
+Note for **Experiment 4**: the last two blocks (last 114 trials) were done on day 2.
