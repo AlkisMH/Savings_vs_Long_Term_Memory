@@ -1,7 +1,7 @@
 # Savings_vs_Long_Term_Memory
 Data for "A Double Dissociation between Savings and Long-Term Memory in Motor Learning"
 
-These .mat files contain data collected for Experiments 1-4. Data for each experiment are in the form of a Matlab structure, with each field consisting of a [Num_trials x Num_participants] matrix.
+These .mat files contain data collected for Experiments 1-4 and S1. Data for each experiment are in the form of a Matlab structure, with each field consisting of a [Num_trials x Num_participants] matrix.
 
 The fields are:
 
